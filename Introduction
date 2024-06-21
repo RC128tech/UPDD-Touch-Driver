@@ -1,0 +1,9 @@
+Hello all UPDD users,
+
+I found a better solution to reinitialize the drivers without non-macOS tools.
+It is tested with the UPDD version 6.00.771 on Mavericks and Mojave.
+
+Before installing the driver, I set the date to 01-01-2038, the UNIX End-Of-The-World-Date.
+I'm not sure if this made any difference, but I did it.
+
+This is the shell script to use:
